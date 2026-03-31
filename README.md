@@ -1,6 +1,9 @@
 # MolJSON-data
 
-This repository contains the data associated with the MolJSON paper.
+This repository contains the data and analysis scripts associated with the MolJSON paper. To use MolJSON in your own work, please see: https://github.com/oxpig/MolJSON.
+
+> [!WARNING]
+> This is the data and analysis repository for the MolJSON paper, not the main MolJSON package repository.
 
 ## Contents
 

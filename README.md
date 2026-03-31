@@ -15,11 +15,28 @@ This repository contains the data and analysis scripts associated with the MolJS
 - `analysis_outputs/plots/`: generated figures
 - `submission_scripts/`: scripts used to generate model responses
 
-Large question and response files are stored in compressed `.gz` form.
+## Dependencies
+
+To create a conda environment for the evaluation and analysis scripts:
+
+```bash
+conda create -n moljson-data -c conda-forge rdkit pandas numpy matplotlib selfies tqdm openjdk
+conda activate moljson-data
+```
+
+To run the submission scripts you will also need:
+
+```bash
+pip install openai anthropic
+```
+
+## Notes
+
+The question and response files are stored in compressed `.gz` form. These can be uncompressed with commands such as `gzip -d filename.gz`.
 
 The `model_responses/checked` files contain the evaluated benchmark outputs and correctness labels used for analysis.
 
-Compressed files can be uncompressed with commands such as `gzip -d filename.gz`.
+The OPSIN parser used for IUPAC-to-SMILES conversion must be downloaded separately from https://github.com/dan2097/opsin. In this work we used OPSIN version 2.9.0.
 
 ## Citation
 

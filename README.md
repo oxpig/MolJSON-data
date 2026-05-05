@@ -43,12 +43,12 @@ The OPSIN parser used for IUPAC-to-SMILES conversion must be downloaded separate
 Please use the following citation when referencing or using MolJSON.
 
 ```bibtex
-@article{runcie2026MolJSON,
-  title={},
-  author={Nicholas T. Runcie and Charlotte M. Deane and Fergus Imrie},
-  journal={},
-  year={2026},
-  doi={},
-  url={},
+@article{runcie2026moljson,
+  title = {Molecular Representations for Large Language Models},
+  author = {Runcie, Nicholas T. and Imrie, Fergus and Deane, Charlotte M.},
+  year = {2026},
+  journal = {arXiv preprint arXiv:2605.01822},
+  doi = {10.48550/arXiv.2605.01822},
+  url = {http://arxiv.org/abs/2605.01822},
 }
 ```
